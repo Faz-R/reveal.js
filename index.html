@@ -16,8 +16,78 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					  <section>Introduction to Google Analytics 4</section>
+						<section>
+							<p class="fragment">Collects both website and app data</p>
+							<p class="fragment">Uses event-based data instead of session-based</p>
+							<p class="fragment">Privacy controls</p>
+							<p class="fragment">Predictive capabilities</p>
+							<p class="fragment">Direct integrations to media platforms</p>
+						</section>
+				</section>
+				<section>
+					<section>How to get started with Google Analytics 4</section>
+					<section>
+						<p class="fragment">Set up Analytics data collection for the first time</p>
+						<p class="fragment">Add Google Analytics 4 to a site with Universal Analytics</p>
+						<p class="fragment">Add Google Analytics 4 to a website builder platform or CMS</p>
+					</section>
+				</section>
+				<section>
+					<section>Set up Analytics data collection for the first time</section>
+					<section>
+						<p>Create Account
+							<img src="assets/admin.png" style="height: 400px;">
+						</p>
+					</section>
+					<section>
+						<p>Create Property
+							<img src="assets/resource.png" style="height: 400px;" >
+						</p>
+					</section>
+					<section>
+						<h3>Add the Google tag</h3>
+						<pre><code class="html" data-trim data-line-numbers style="font-size: 15px;">
+							<!-- Google tag (gtag.js) -->
+							<script async src="https://www.googletagmanager.com/gtag/js?id=G-QCX3G9KSPC"></script>
+              <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());              
+
+                gtag('config', 'G-QCX3G9KSPC');
+              </script>
+						</code></pre>
+					</section>
+					<section>
+						<p>Benefits</p>
+						<ul>
+							<li class="fragment">Multiple tags</li>
+							<li class="fragment">Manage access</li>
+						</ul>
+						<p>Drawbacks</p>
+						<ul>
+							<li class="fragment">Difficult to find</li>
+						</ul>
+					</section>
+					<section>
+						<p>Better! I have <a href="https://support.google.com/analytics/answer/12002338#zippy=%2Cset-up-your-google-tag-from-google-analytics-instructions">instructions</a></p>
+						<img src="assets/jack.jpg" style="height: 400px;" >
+					</section>
+				</section>
+				<section>
+					<h3>5 benefits of Google Analytics 4</h3>
+					<ul>
+						<li  class="fragment">You can now track across both your web and your app</li>
+						<li  class="fragment">Enhanced measurements based on events</li>
+						<li  class="fragment">Pathways to visualize the buyer journey</li>
+						<li  class="fragment">Custom reports have become explores</li>
+						<li  class="fragment">Free BigQuery Exports</li>
+					</ul>
+
+
+				</section>
 			</div>
 		</div>
 
